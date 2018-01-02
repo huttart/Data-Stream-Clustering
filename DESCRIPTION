@@ -1,0 +1,14 @@
+Package: DataStreamClustering
+Type: Package
+Title: A package I made
+Version: 1.0.0
+Author: Hutta Dangtubtim <huttartt@gmail.com>
+Maintainer: Hutta Dangtubtim <huttartt@gmail.com>
+Description: A package I've made for Data Stream Clustring algorithm 
+License: -
+Encoding: UTF-8
+LazyData: true
+Depends: R6,Rcpp,ClusterR
+LinkingTo: Rcpp
+Imports: Rcpp
+RcppModules: yada

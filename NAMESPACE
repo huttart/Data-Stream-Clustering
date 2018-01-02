@@ -1,0 +1,6 @@
+exportPattern("^[[:alpha:]]+")
+useDynLib(DataStreamClustering)
+importFrom(Rcpp, sourceCpp)
+importClassesFrom( Rcpp, "C++Object", "C++Class", "Module" )
+import(Rcpp)
+export(Denstream)
